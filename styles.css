@@ -1,0 +1,78 @@
+div.static {
+  position: static;
+  float: center;
+  margin-right: auto;
+    margin-left: auto;
+  border: 3px solid #73AD21;
+  
+}
+
+h1 {
+    float: inline-start;
+    margin-bottom: 25px;
+    text-align: left;
+    
+    
+}
+
+  div.ex2 {
+    width: 260px;
+    height: 150px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: rgb(228, 224, 224);
+    float: left;
+    margin-bottom: -100px;
+    margin-top: 2em;
+    z-index: 0;
+    position: relative;
+
+
+
+  }
+  aside {
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position:center;
+    top: 0px;
+    left: 50;
+    right: 50;
+    margin-right: 200px;
+    margin-left: 200px;
+    right: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+  }
+
+  div.relative {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:rgb(223, 213, 213);
+    top: 0px;
+    left: 50;
+    right: 50;
+    margin-right: 200px;
+    margin-left: 200px;
+    right: 0;
+    width: 64.5%;
+    height: 200px;
+    text-align: center;
+  }
+  
+  div.absolute {
+    position: absolute;
+    top:45%;
+    right: 15px;
+    background-color: gray;
+    position: center;
+    margin-right: -60px;
+    width: 300px;
+    height: 110px;
+    
+  }
